@@ -1,10 +1,10 @@
-package br.com.generation.ProjetoSaudeJA;
+package br.com.generation.ProjetoSaudeJA; //Teste
 
 import java.util.Scanner;
 
 public class Paciente implements InterfacePaciente {
 
-	//Declaração de Variáveis
+	//DeclaraÃ§Ã£o de VariÃ¡veis
 	
 	private String nome;
 	private int   idade;
@@ -27,12 +27,12 @@ public class Paciente implements InterfacePaciente {
 	}
 	
 	
-	//Sobreescrita de métodos - interface
+	//Sobreescrita de mÃ©todos - interface
 	
 	@Override
 	public int pergunta1() {
 		int pgt1;
-		System.out.println("Você está ou esteve com alteração do olfato ou paladar ? \n1 escolha 0 - NÃO | 1 - SIM");
+		System.out.println("VocÃª estÃ¡ ou esteve com alteraÃ§Ã£o do olfato ou paladar ? \n1 escolha 0 - NÃƒO | 1 - SIM");
 		pgt1 = resposta.nextInt();
 		return pgt1;
 	}
@@ -40,7 +40,7 @@ public class Paciente implements InterfacePaciente {
 	@Override
 	public int pergunta2() {
 		int  pgt2;	
-		System.out.println("Você está ou esteve com dor de cabeça ? \n  escolha 0 - NÃO | 1 - SIM");
+		System.out.println("VocÃª estÃ¡ ou esteve com dor de cabeÃ§a ? \n  escolha 0 - NÃƒO | 1 - SIM");
 		pgt2 = resposta.nextInt();
 		return pgt2;
 		
@@ -48,7 +48,7 @@ public class Paciente implements InterfacePaciente {
 	@Override
 	public int pergunta3() {
 		int pgt3;
-		System.out.println("Você está ou esteve com Febre ?  \n escolha 0 - NÃO | 1 - SIM");
+		System.out.println("VocÃª estÃ¡ ou esteve com Febre ?  \n escolha 0 - NÃƒO | 1 - SIM");
 		pgt3 = resposta.nextInt();
 		return pgt3;
 		
@@ -56,14 +56,14 @@ public class Paciente implements InterfacePaciente {
 	@Override
 	public int pergunta4() {
         int pgt4;
-		System.out.println("Você está ou esteve com Tosse ? \n escolha 0 - NÃO | 1 - SIM");
+		System.out.println("VocÃª estÃ¡ ou esteve com Tosse ? \n escolha 0 - NÃƒO | 1 - SIM");
 		pgt4 = resposta.nextInt();
 		return pgt4;
     }	
 	@Override
 	public int pergunta5() {
 		int pgt5;
-		System.out.println("Você está ou esteve com Falta de ar ? \n escolha 0 - NÃO | 1 - SIM");
+		System.out.println("VocÃª estÃ¡ ou esteve com Falta de ar ? \n escolha 0 - NÃƒO | 1 - SIM");
 		pgt5 = resposta.nextInt();
 		return pgt5;
 	}
